@@ -16,13 +16,25 @@ const RATINGS = settings.ratings;
 const FEN_API_URL = "https://www.chess.com/dynboard";
 const LICHESS_ANALYSIS_FEN_URL = "https://lichess.org/analysis?fen=";
 
+const http = require('http');
+const express = require('express')();
+express.get("/", (request, response) => { //interacting with glitch.com
+  response.sendStatus(200);
+});
+
+express.listen(process.env.PORT);
+
+setInterval(() => {
+  http.get(`http://${process.env.lazybot || "houselazybot"}.glitch.me/`); //pinging glitch.com
+}, 280000);
+
 client.on("ready", () => {
 	console.log("The bot started!");
   tracker.initUpdateCycle();
 });
 
 client.on("guildMemberAdd", (guildMember) => {
-	let foundRole = guildMember.guild.roles.find("name", settings.unrankedRoleName);
+	let foundRole = guildMember.guild.roles.find(item => item.name === settings.unrankedRoleName);
 	if(foundRole) {
 		guildMember.addRole(foundRole).catch((e) => console.log(JSON.stringify(e)));
 	}
@@ -310,7 +322,7 @@ client.on("message", (message) => {
   
 	//LEAGUE ROLE TOGGLE
 	if(splitMsg[0].toLowerCase() === "!league") {
-		let leagueRole = message.member.roles.find("name", settings.leagueRoleName);
+		let leagueRole = message.member.roles.find(item => item.name === settings.leagueRoleName);
 		if(leagueRole) {
 			//Remove the role
 			message.member.removeRole(leagueRole).catch((e) => console.log(JSON.stringify(e)));
@@ -321,7 +333,7 @@ client.on("message", (message) => {
       .catch((e) => console.log(JSON.stringify(e)));
 		} else {
 			//Add the role
-			let role = message.guild.roles.find("name", settings.leagueRoleName);
+			let role = message.guild.roles.find(item => item.name === settings.leagueRoleName);
 			message.member.addRole(role).catch((e) => console.log(JSON.stringify(e)));
       message.channel.send("League role added.")
       .then(function(msg) {
@@ -333,7 +345,7 @@ client.on("message", (message) => {
 
 	//ARENA ROLE TOGGLE
 	if(splitMsg[0].toLowerCase() === "!arena") {
-		let arenaRole = message.member.roles.find("name", settings.arenaRoleName);
+		let arenaRole = message.member.roles.find(item => item.name === settings.arenaRoleName);
 		if(arenaRole) {
 			//Remove the role
 			message.member.removeRole(arenaRole).catch((e) => console.log(JSON.stringify(e)));
@@ -343,7 +355,7 @@ client.on("message", (message) => {
       });
 		} else {
 			//Add the role
-			let role = message.guild.roles.find("name", settings.arenaRoleName);
+			let role = message.guild.roles.find(item => item.name === settings.arenaRoleName);
 			message.member.addRole(role).catch((e) => console.log(JSON.stringify(e)));
 			message.channel.send("Arena role added.")
       .then(function(msg) {
@@ -354,7 +366,7 @@ client.on("message", (message) => {
 
 	//STUDY ROLE TOGGLE
 	if(splitMsg[0].toLowerCase() === "!study") {
-		let studyRole = message.member.roles.find("name", settings.studyRoleName);
+		let studyRole = message.member.roles.find(item => item.name === settings.studyRoleName);
 		if(studyRole) {
 			//Remove the role
 			message.member.removeRole(studyRole).catch((e) => console.log(JSON.stringify(e)));
@@ -364,7 +376,7 @@ client.on("message", (message) => {
       });
 		} else {
 			//Add the role
-			let role = message.guild.roles.find("name", settings.studyRoleName);
+			let role = message.guild.roles.find(item => item.name === settings.studyRoleName);
 			message.member.addRole(role).catch((e) => console.log(JSON.stringify(e)));
 			message.channel.send("Study role added.")
       .then(function(msg) {
@@ -379,7 +391,7 @@ client.login(settings.token);
 function onModError(serverID, msg) {
 	let guild = client.guilds.get(serverID);
 	let channel = getModChannel(client.guilds.get(serverID));
-	let modRole = guild.roles.find("name", settings.modRoleName);
+	let modRole = guild.roles.find(item => item.name === settings.modRoleName);
 	if(modRole) {
 		msg = `<@&${modRole.id}>\n` + msg;
 	}
@@ -435,7 +447,7 @@ function removeRatingRole(serverID, userID) {
 	for(let i = 0; i < roles.length; i++) {
 		member.removeRole(roles[i]).catch((e) => console.log(JSON.stringify(e)));
 	}
-	let unrankedRole = guild.roles.find("name", settings.unrankedRoleName);
+	let unrankedRole = guild.roles.find(item => item.name === settings.unrankedRoleName);
 	if(unrankedRole) {
 		member.addRole(unrankedRole).catch((e) => console.log(JSON.stringify(e)));
 	}
@@ -466,7 +478,7 @@ function onTrackSuccess(serverID, userID, ratingData, source, username) {
 	let member = guild.members.get(userID);
 
 	//If user has an unranked role, remove it
-	let unranked = member.roles.find("name", settings.unrankedRoleName);
+	let unranked = member.roles.find(item => item.name === settings.unrankedRoleName);
 	if(unranked) {
 		member.removeRole(unranked).catch((e) => console.log(JSON.stringify(e)));
 	}
@@ -581,13 +593,13 @@ function findRoleForRating(guild, rating) {
 		return null;
 	}
 
-	let role = guild.roles.find("name", matchedRole);
+	let role = guild.roles.find(item => item.name === matchedRole);
 
 	return role;
 }
 
 function getModChannel(guild) {
-	let channel = guild.channels.find("name", settings.modChannelName);
+	let channel = guild.channels.find(item => item.name === settings.modChannelName);
 	if(!channel) {
 		console.log("No mod channel found on server: " + guild.name);
 	}
@@ -595,7 +607,7 @@ function getModChannel(guild) {
 }
 
 function getBotChannel(guild) {
-	let channel = guild.channels.find("name", settings.botChannelName);
+	let channel = guild.channels.find(item => item.name === settings.botChannelName);
 	if(!channel) {
 		console.log("No bot channel found on server: " + guild.name);
 	}
