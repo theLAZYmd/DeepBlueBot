@@ -16,22 +16,15 @@ const RATINGS = settings.ratings;
 const FEN_API_URL = "https://www.chess.com/dynboard";
 const LICHESS_ANALYSIS_FEN_URL = "https://lichess.org/analysis?fen=";
 
-const http = require('http');
-const express = require('express')();
-express.get("/", (request, response) => { //interacting with glitch.com
-  response.sendStatus(200);
-});
-
-express.listen(process.env.PORT);
-
-setInterval(() => {
-  http.get(`http://${process.env.lazybot || "houselazybot"}.glitch.me/`); //pinging glitch.com
-}, 280000);
-
 client.on("ready", () => {
 	console.log("The bot started!");
   tracker.initUpdateCycle();
 });
+
+client.on("error", (e) => {
+	console.log(e);
+	client.login(settings.token);
+})
 
 client.on("guildMemberAdd", (guildMember) => {
 	let foundRole = guildMember.guild.roles.find(item => item.name === settings.unrankedRoleName);
@@ -52,6 +45,20 @@ client.on("message", (message) => {
 	}
 
 	let splitMsg = message.content.match(msgSplitRegExp);
+
+	//EVAL COMMAND
+	if(splitMsg[0].toLowerCase() === "!eval") {
+    try {
+      if (!settings.owners.includes(message.user.id)) throw "That command is bot owner only.\nIf you are not an active developer on the bot, you cannot use this command."; //extra protection, in case permission.js fails
+			let args = splitMsg, argument = args.slice(1).join(" ");
+			if (argument.startsWith("```") && argument.endsWith("```")) argument = argument.slice(args[0].length, -3).trim();
+      else throw "Incorrect formatting! Use a code block!";
+      console.log(argument);
+      eval(argument);
+    } catch (e) {
+      if (e) message.channel.send(e)
+    }
+  }
 
 	//GLOBAL FEN COMMAND
 	if(splitMsg[0].toLowerCase() === "!fen") {
@@ -522,19 +529,20 @@ function onRatingUpdate(serverID, userID, oldData, ratingData, source, username)
 		tracker.remove(guild.id, userID);
 		return;
 	}
-	let newRole = findRoleForRating(guild, ratingData.maxRating);
-	
-	if(newRole.name == "Unranked"){
-		removeRatingRole(serverID, userID)
-		return;
-	}
-	
+	let newRole = findRoleForRating(guild, ratingData.maxRating);	
+
 	if(!newRole) {
     botChannel.send("Could not find a valid role for rating " + ratingData.maxRating)
     .then(message => message.delete(settings.deleteDelay))
 		.catch((e) => console.log(JSON.stringify(e)));
 		return;
 	}
+	
+	if(newRole.name == "Unranked"){
+		removeRatingRole(serverID, userID)
+		return;
+	}
+
 	let currentRoles = getMemberRatingRoles(member);
 	for(let i = 0; i < currentRoles.length; i++) {
 		let role = currentRoles[i];
@@ -582,7 +590,7 @@ function findRoleForRating(guild, rating) {
 		matchedRole = rating >= RATINGS[RATINGS.length - 1] ? RATINGS[RATINGS.length - 1] + "++" : null;
 	}
 	if(!matchedRole) {
-		for(let i = RATINGS.length - 1; i > 0; i--) {
+		for(let i = RATINGS.length - 1; i >= 0; i--) {
 			if(rating >= RATINGS[i]) {
 				matchedRole = RATINGS[i] + "+";
 				break;
@@ -676,3 +684,21 @@ function getFenEmbed(imageUrl, text, lichessAnalysisUrl) {
 		}
 	};
 }
+
+Date.prototype.getUTCDays = function () {
+	return Math.floor(this.getTime() / 86400000);
+}
+
+Date.getTime = function (ms) {
+	let time = new Date(ms);
+	time.days = time.getUTCDays();
+	time.hours = time.getUTCHours();
+	time.minutes = time.getUTCMinutes();
+	time.seconds = time.getUTCSeconds();
+	time.milliseconds = time.getUTCMilliseconds();
+	return time;
+};
+
+Date.getISOtime = function (ms) {
+	return Date.getTime(ms).toString().slice(0, 31);
+};
