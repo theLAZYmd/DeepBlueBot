@@ -22,8 +22,7 @@ client.on("ready", () => {
 });
 
 client.on("error", (e) => {
-	console.log(e);
-	client.login(settings.token);
+	console.error(e);
 })
 
 client.on("guildMemberAdd", (guildMember) => {

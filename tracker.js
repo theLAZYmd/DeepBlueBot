@@ -192,8 +192,7 @@ class Tracker {
 		let data = DataManager.getData();
 		if (data[serverID]) {
 			let users = data[serverID];
-			for (userID in users) {
-				let user = users[userID];
+			for (let [userID, user] of Object.entries(users)) {
 				if (user.username.toLowerCase() === username.toLowerCase() &&
 					source.toLowerCase() === user.source.toLowerCase()) {
 					this.remove(serverID, userID);
