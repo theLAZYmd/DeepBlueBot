@@ -34,12 +34,14 @@ class Tracker {
 	}
 
 	queueForceUpdate(serverID, userID) {
-		let data = DataManager.getData();
+        let data = DataManager.getData();
+        if (!data[serverID][userID]) return;
 		if (data[serverID][userID].lastupdate) delete data[serverID][userID].lastupdate;
 		DataManager.setData(data);
 	};
 
 	initUpdateCycle() {
+        if (this.updateDelay === Infinity) return;
 		let userData = Tracker.findLeastUpToDateUser();
 		if (userData && !this.stopUpdating) {
 			this.updating = true;
@@ -243,7 +245,8 @@ class Tracker {
 		let username = data[serverID][userID].username;
 
 		//Update last message time
-		let server = this.discord.guilds.get(serverID);
+        let server = this.discord.guilds.get(serverID);
+        if (!server) return;
 		let member = server.members.get(userID);
 		if (member && member.lastMessage) {
 			data[serverID][userID].lastMessageTime = member.lastMessage.createdTimestamp;

@@ -266,7 +266,7 @@ client.on("message", (message) => {
 					"active": splitMsg[0].toLowerCase() === "!active"
 				});
 				let list = leaderboard.getList(getNick);
-				list.embed.color = settings.embedColor;
+				if (list.embed) list.embed.color = settings.embedColor;
 				message.channel.send(list)
         .then(function(msg) {
           if(msg.channel.id === getBotChannel(msg.guild).id) msg.delete(settings.deleteDelay);
