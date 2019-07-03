@@ -10,10 +10,10 @@ const cheatedUserID = {};
 
 class Tracker {
 
-	constructor(discord, events) {
+	constructor(client, events) {
 		this.stopUpdating = false;
 		this.updating = false;
-		this.discord = discord;
+		this.client = client;
 		this.updateDelay = settings.updateDelay;
 		this.onTrackSuccess = events.onTrackSuccess || (() => {});
 		this.onRemoveSuccess = events.onRemoveSuccess || (() => {});
@@ -207,34 +207,20 @@ class Tracker {
 	}
 
 	static findLeastUpToDateUser() {
-		let data = DataManager.getData();
-		let foundUserData = null;
-		let currentLeastUpdatedValue = Infinity;
-		for (let serverID in data) {
-			for (let userID in data[serverID]) {
-				let userData = data[serverID][userID];
-				if (closedUsername[userData.username.toLowerCase()]) {
-					continue;
-				}
-				if (!data[serverID][userID].lastupdate) {
-					currentLeastUpdatedValue = 0;
-					foundUserData = {
-						"userID": userID,
-						"serverID": serverID
-					};
-					break;
-				} else
-				if (data[serverID][userID].lastupdate < currentLeastUpdatedValue) {
-					currentLeastUpdatedValue = data[serverID][userID].lastupdate || 0;
-					foundUserData = {
-						"userID": userID,
-						"serverID": serverID
-					};
-				}
-			}
-			if (currentLeastUpdatedValue === 0) break;
-		}
-		return foundUserData;
+        let currentValue = Infinity;
+        for (let [serverID, guildUsers] in Object.entries(DataManager.getData())) {
+            let f = Object.entries(guildUsers).find(([userID, dbuser]) => {
+                if (closedUsername[dbuser.username.toLowerCase()]) continue;
+                let user = this.client.users.find.byUser(userID);			
+                if (!/online|idle|dnd/.test(user.presence.status)) return false;
+                if (!dbuser.lastupdate) return true;
+                if (dbuser.lastupdate < currentValue && dbuser.lastupdate < Date.now() - (config.minimumUpdate || 60 * 30 * 1000)) {
+                    currentValue = dbuser.lastupdate;
+                    return {    userID, serverID    };
+                }
+            });
+            if (f) return f;
+        }
 	};
 
 	updateUser(userData) {
