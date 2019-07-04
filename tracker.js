@@ -1,5 +1,6 @@
 const settings = require("./settings.js");
 const request = require("request");
+const path = require('path');
 const DataManagerConstructor = require("./datamanager.js");
 const DataManager = new DataManagerConstructor(settings.dataFile);
 const LICHESS_USERS_URL = "https://lichess.org/api/users";
@@ -42,7 +43,7 @@ class Tracker {
 
 	initUpdateCycle() {
         if (this.updateDelay === Infinity) return;
-		let userData = Tracker.findLeastUpToDateUser();
+		let userData = this.findLeastUpToDateUser();
 		if (userData && !this.stopUpdating) {
 			this.updating = true;
 			this.updateUser(userData).catch((e) => {
@@ -206,20 +207,23 @@ class Tracker {
 		this.stopUpdating = false;
 	}
 
-	static findLeastUpToDateUser() {
+	findLeastUpToDateUser() {
         let currentValue = Infinity;
-        for (let [serverID, guildUsers] in Object.entries(DataManager.getData())) {
+        for (let [serverID, guildUsers] of Object.entries(DataManager.getData())) {
             let f = Object.entries(guildUsers).find(([userID, dbuser]) => {
-                if (closedUsername[dbuser.username.toLowerCase()]) continue;
-                let user = this.client.users.find.byUser(userID);			
+                if (closedUsername[dbuser.username.toLowerCase()]) return;
+                let user = this.client.users.get(userID);			
                 if (!/online|idle|dnd/.test(user.presence.status)) return false;
                 if (!dbuser.lastupdate) return true;
-                if (dbuser.lastupdate < currentValue && dbuser.lastupdate < Date.now() - (config.minimumUpdate || 60 * 30 * 1000)) {
+                if (dbuser.lastupdate < currentValue && dbuser.lastupdate < Date.now() - (settings.minimumUpdate || 60 * 30 * 1000)) {
                     currentValue = dbuser.lastupdate;
-                    return {    userID, serverID    };
+                    return true;
                 }
-            });
-            if (f) return f;
+			});
+            if (f) return {
+				serverID,
+				userID: f[0]
+			};
         }
 	};
 
@@ -231,7 +235,7 @@ class Tracker {
 		let username = data[serverID][userID].username;
 
 		//Update last message time
-        let server = this.discord.guilds.get(serverID);
+        let server = this.client.guilds.get(serverID);
         if (!server) return;
 		let member = server.members.get(userID);
 		if (member && member.lastMessage) {
