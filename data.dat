@@ -2,14 +2,14 @@
     "375369882688028674": {
         "103894811068616704": {
             "ratings": {
-                "rapid": 1850,
-                "maxRating": 1850,
-                "blitz": 1740,
-                "bullet": 1674
+                "rapid": 1855,
+                "maxRating": 1855,
+                "blitz": 1739,
+                "bullet": 1625
             },
             "source": "Lichess",
             "username": "HueHang",
-            "lastupdate": 1562173232771
+            "lastupdate": 1568131969555
         },
         "106442913398935552": {
             "ratings": {
@@ -21,59 +21,54 @@
             },
             "source": "Lichess",
             "username": "FluxxSC",
-            "lastupdate": 1562174509467,
+            "lastupdate": 1566160749886,
             "lastMessageTime": 1543430763262
         },
         "120144174388346881": {
             "ratings": {
                 "classical": 1441,
-                "rapid": 1410,
-                "maxRating": 1410,
                 "blitz": 1084,
-                "bullet": 1048
+                "maxRating": 1084
             },
             "source": "Lichess",
             "username": "potatoknishes",
             "lastMessageTime": 1545874972994,
-            "lastupdate": 1562174689092
+            "lastupdate": 1568113066627
         },
         "120222563107471360": {
             "ratings": {
-                "classical": 1776,
-                "rapid": 1828,
-                "maxRating": 1832,
-                "blitz": 1832,
-                "bullet": 1611
+                "classical": 1797,
+                "rapid": 1882,
+                "maxRating": 1882,
+                "blitz": 1836,
+                "bullet": 1642
             },
             "source": "Lichess",
             "username": "mathematico",
             "lastMessageTime": 1546230644011,
-            "lastupdate": 1562175393043
+            "lastupdate": 1568131069199
         },
         "127208549620252672": {
             "ratings": {
-                "classical": 2214,
-                "rapid": 2117,
-                "maxRating": 2171,
-                "blitz": 2171,
-                "bullet": 2100
+                "rapid": 2151,
+                "maxRating": 2202,
+                "blitz": 2202,
+                "bullet": 2115
             },
             "source": "Lichess",
             "username": "Vatnos",
-            "lastMessageTime": 1562171767420,
-            "lastupdate": 1562175589151
+            "lastMessageTime": 1566222025829,
+            "lastupdate": 1568127467881
         },
         "140292365435797504": {
             "ratings": {
                 "classical": 1690,
-                "rapid": 1684,
-                "maxRating": 1684,
                 "blitz": 1498,
-                "bullet": 1368
+                "maxRating": 1498
             },
             "source": "Lichess",
             "username": "Flonk",
-            "lastupdate": 1562176293634
+            "lastupdate": 1568068958662
         },
         "142536960643301376": {
             "ratings": {
@@ -84,112 +79,97 @@
             },
             "source": "Chesscom",
             "username": "Vicicles",
-            "lastupdate": 1562176310120,
+            "lastupdate": 1568094162545,
             "lastMessageTime": 1528849599680
         },
         "151146676244054016": {
             "ratings": {
                 "classical": 2047,
-                "rapid": 2122,
-                "maxRating": 2122,
-                "blitz": 2106,
-                "bullet": 1907
+                "rapid": 2155,
+                "maxRating": 2155,
+                "blitz": 2122,
+                "bullet": 1947
             },
             "source": "Lichess",
             "username": "Nytik",
-            "lastMessageTime": 1562159316837,
-            "lastupdate": 1562161004606
-        },
-        "186500698731446272": {
-            "ratings": {
-                "classical": 1452,
-                "rapid": 1418,
-                "maxRating": 1418,
-                "blitz": 1343
-            },
-            "source": "Lichess",
-            "username": "Dumb_Robot",
-            "lastMessageTime": 1558799780746,
-            "lastupdate": 1562177193912
+            "lastMessageTime": 1566602236700,
+            "lastupdate": 1567892517628
         },
         "189815578326728704": {
             "ratings": {
-                "classical": 1879,
                 "rapid": 1886,
                 "maxRating": 1886,
-                "blitz": 1799,
+                "blitz": 1844,
                 "bullet": 1818
             },
             "source": "Lichess",
             "username": "Toperoco",
             "lastMessageTime": 1538859496397,
-            "lastupdate": 1562177210193
+            "lastupdate": 1568132869634
         },
         "199184877357236225": {
             "ratings": {
-                "rapid": 1815,
-                "maxRating": 1815
+                "maxRating": 0
             },
             "source": "Lichess",
             "username": "Ainue",
-            "lastupdate": 1562178289768
+            "lastupdate": 1565354812335
         },
         "227158291057213440": {
             "ratings": {
-                "rapid": 1292,
-                "maxRating": 1292,
-                "blitz": 1290
+                "blitz": 1290,
+                "maxRating": 1290
             },
             "source": "Lichess",
             "username": "BaronVonChickenpants",
-            "lastupdate": 1562178994062
+            "lastupdate": 1565188293094
         },
         "233991377506009088": {
             "ratings": {
-                "classical": 1814,
-                "rapid": 1800,
-                "maxRating": 1800,
-                "blitz": 1726,
-                "bullet": 1680
+                "classical": 1816,
+                "rapid": 1821,
+                "maxRating": 1821,
+                "blitz": 1636,
+                "bullet": 1696
             },
             "source": "Lichess",
             "username": "tnan123",
-            "lastupdate": 1562179310593
+            "lastupdate": 1565457422402
         },
         "242020126281433088": {
             "ratings": {
-                "classical": 1510,
-                "rapid": 1372,
-                "maxRating": 1372
+                "classical": 1502,
+                "rapid": 1396,
+                "maxRating": 1396
             },
             "source": "Lichess",
             "username": "owdeou",
-            "lastupdate": 1562179910466
+            "lastupdate": 1568116666974
         },
         "254488830462132227": {
             "ratings": {
-                "classical": 2225,
-                "rapid": 2626,
-                "maxRating": 2626,
-                "blitz": 2396,
-                "bullet": 2420
+                "classical": 2244,
+                "rapid": 2639,
+                "maxRating": 2639,
+                "blitz": 2533,
+                "bullet": 2699
             },
             "source": "Lichess",
             "username": "Lance5500",
-            "lastMessageTime": 1561902542329,
-            "lastupdate": 1562180990821
+            "lastMessageTime": 1564979065344,
+            "lastupdate": 1568072558931
         },
         "263296382289313792": {
             "ratings": {
-                "classical": 1744,
-                "rapid": 1736,
-                "maxRating": 1736,
-                "blitz": 1736
+                "rapid": 1740,
+                "maxRating": 1740,
+                "blitz": 1736,
+                "bullet": 1616
             },
             "source": "Lichess",
             "username": "Creat0rX",
             "lastMessageTime": 1557869582806,
-            "lastupdate": 1562181110775
+            "lastupdate": 1568114866806
         },
         "264879058582503424": {
             "ratings": {
@@ -200,11 +180,10 @@
             },
             "source": "Lichess",
             "username": "atomicknight",
-            "lastupdate": 1562181700959
+            "lastupdate": 1568096863159
         },
         "275001560931500033": {
             "ratings": {
-                "classical": 1679,
                 "rapid": 1885,
                 "maxRating": 1885,
                 "blitz": 1716,
@@ -213,65 +192,62 @@
             "source": "Lichess",
             "username": "cookieblake",
             "lastMessageTime": 1525727289423,
-            "lastupdate": 1562182601034
+            "lastupdate": 1568104964064
         },
         "282841374410407937": {
             "ratings": {
-                "classical": 2129,
+                "classical": 2127,
                 "rapid": 2230,
                 "maxRating": 2230,
-                "blitz": 2204,
-                "bullet": 2192
+                "blitz": 2228,
+                "bullet": 2250
             },
             "source": "Lichess",
             "username": "Sonata2",
-            "lastMessageTime": 1562151284169,
-            "lastupdate": 1562188536405
+            "lastMessageTime": 1568099388032,
+            "lastupdate": 1568099563589
         },
         "297063215513468929": {
             "ratings": {
-                "rapid": 1618,
-                "maxRating": 1618,
                 "blitz": 1479,
-                "bullet": 1553
+                "maxRating": 1479
             },
             "source": "Lichess",
             "username": "ralphnstephens",
-            "lastupdate": 1562184401234
+            "lastupdate": 1568106764192
         },
         "298843311353888770": {
             "ratings": {
                 "classical": 1443,
                 "rapid": 1278,
                 "maxRating": 1278,
-                "blitz": 1247,
                 "bullet": 1166
             },
             "source": "Lichess",
             "username": "chesswith666",
             "lastMessageTime": 1548608136736,
-            "lastupdate": 1562184414030
+            "lastupdate": 1565428619481
         },
         "306492147954352128": {
             "ratings": {
-                "blitz": 1493,
-                "maxRating": 1493,
+                "blitz": 1340,
+                "maxRating": 1340,
                 "bullet": 1027
             },
             "source": "Lichess",
             "username": "Nikko911",
-            "lastupdate": 1562184714325
+            "lastupdate": 1567937533842
         },
         "326918898178064396": {
             "ratings": {
-                "rapid": 2655,
-                "maxRating": 2816,
-                "blitz": 2816,
-                "bullet": 3064
+                "rapid": 2632,
+                "maxRating": 2732,
+                "blitz": 2732,
+                "bullet": 2992
             },
             "source": "Lichess",
             "username": "penguingim1",
-            "lastupdate": 1562189217279
+            "lastupdate": 1567896119162
         },
         "329878373507661828": {
             "ratings": {
@@ -285,26 +261,23 @@
         },
         "333586342275710978": {
             "ratings": {
-                "rapid": 2369,
-                "maxRating": 2369,
-                "blitz": 2355,
-                "bullet": 2503
+                "maxRating": 0
             },
             "source": "Lichess",
             "username": "MMichael",
-            "lastMessageTime": 1561827348525,
-            "lastupdate": 1562189804309
+            "lastMessageTime": 1566066000691,
+            "lastupdate": 1566218370406
         },
         "338952992260751371": {
             "ratings": {
                 "rapid": 2226,
-                "maxRating": 2503,
-                "blitz": 2503,
-                "bullet": 2469
+                "maxRating": 2554,
+                "blitz": 2554,
+                "bullet": 2512
             },
             "source": "Lichess",
             "username": "jeffforever",
-            "lastupdate": 1562189815637,
+            "lastupdate": 1563954806862,
             "lastMessageTime": 1558293684402
         },
         "345214142376050688": {
@@ -321,16 +294,16 @@
         },
         "346484064636895232": {
             "ratings": {
-                "classical": 2037,
+                "classical": 2048,
                 "rapid": 2200,
-                "maxRating": 2202,
-                "blitz": 2202,
-                "bullet": 2506
+                "maxRating": 2200,
+                "blitz": 2074,
+                "bullet": 2511
             },
             "source": "Lichess",
             "username": "The_Laminator",
-            "lastMessageTime": 1562168896991,
-            "lastupdate": 1562171209839
+            "lastMessageTime": 1565599397619,
+            "lastupdate": 1565600240641
         },
         "355544822343401482": {
             "ratings": {
@@ -339,7 +312,7 @@
             },
             "source": "Chesscom",
             "username": "Silsim",
-            "lastupdate": 1562161307872
+            "lastupdate": 1566287679834
         },
         "362056723600637963": {
             "ratings": {
@@ -390,25 +363,24 @@
             "source": "Lichess",
             "ratings": {
                 "classical": 1422,
-                "rapid": 1479,
-                "maxRating": 1479,
-                "blitz": 1383,
-                "bullet": 1169
+                "rapid": 1460,
+                "maxRating": 1460,
+                "blitz": 1314,
+                "bullet": 1170
             },
             "lastMessageTime": 1561923369597,
-            "lastupdate": 1562169107236
+            "lastupdate": 1566203966614
         },
         "230490067343245322": {
             "username": "colwem",
             "source": "Lichess",
             "ratings": {
-                "classical": 1717,
-                "rapid": 1601,
-                "maxRating": 1601,
-                "blitz": 1439,
-                "bullet": 1159
+                "classical": 1749,
+                "rapid": 1615,
+                "maxRating": 1615,
+                "blitz": 1439
             },
-            "lastupdate": 1562193420516
+            "lastupdate": 1566208468184
         },
         "257702514416287756": {
             "username": "EricDaPanda",
@@ -444,19 +416,6 @@
             },
             "lastMessageTime": 1532449902101,
             "lastupdate": 1562172887880
-        },
-        "306278814269440001": {
-            "username": "Tapcon",
-            "source": "Lichess",
-            "ratings": {
-                "classical": 2323,
-                "rapid": 2316,
-                "maxRating": 2316,
-                "blitz": 2198,
-                "bullet": 2189
-            },
-            "lastupdate": 1562158830863,
-            "lastMessageTime": 1541782292251
         },
         "434037240646205461": {
             "username": "AlexanderFly",
@@ -552,8 +511,7 @@
                 "blitz": 1836,
                 "bullet": 1808
             },
-            "lastMessageTime": 1562150196023,
-            "lastupdate": 1562172332695
+            "lastMessageTime": 1562150196023
         },
         "106241346842451968": {
             "username": "RobertLak",
@@ -663,19 +621,6 @@
             "lastMessageTime": 1527956087037,
             "lastupdate": 1562162085167
         },
-        "155688951066132480": {
-            "username": "isavulpes",
-            "source": "Lichess",
-            "ratings": {
-                "classical": 2205,
-                "rapid": 1992,
-                "maxRating": 1992,
-                "blitz": 1955,
-                "bullet": 1809
-            },
-            "lastMessageTime": 1562162475053,
-            "lastupdate": 1562185491197
-        },
         "332144741388910595": {
             "username": "scotty770",
             "source": "Lichess",
@@ -783,17 +728,6 @@
             "lastupdate": 1562162985225,
             "lastMessageTime": 1532915158475
         },
-        "435247855503147030": {
-            "username": "utgamer",
-            "source": "Chesscom",
-            "ratings": {
-                "rapid": 1406,
-                "maxRating": 1406,
-                "blitz": 1289
-            },
-            "lastupdate": 1562170532559,
-            "lastMessageTime": 1561590041669
-        },
         "185412969130229760": {
             "username": "theLAZYmd",
             "source": "Lichess",
@@ -841,8 +775,7 @@
                 "blitz": 1491,
                 "bullet": 1518
             },
-            "lastMessageTime": 1559386300346,
-            "lastupdate": 1562179010359
+            "lastMessageTime": 1559386300346
         },
         "450658202518945792": {
             "username": "KetoFiend",
@@ -878,19 +811,6 @@
             "lastupdate": 1562179190670,
             "lastMessageTime": 1537721214552
         },
-        "300787111462699008": {
-            "username": "BraydonP",
-            "source": "Lichess",
-            "ratings": {
-                "classical": 1870,
-                "rapid": 2048,
-                "maxRating": 2048,
-                "blitz": 2015,
-                "bullet": 1757
-            },
-            "lastMessageTime": 1561946310988,
-            "lastupdate": 1562169989436
-        },
         "187501239561355264": {
             "username": "SoulofChrysamere",
             "source": "Lichess",
@@ -924,19 +844,6 @@
             },
             "lastupdate": 1562178633267,
             "lastMessageTime": 1539972112068
-        },
-        "325718727989526540": {
-            "username": "classicalryadad",
-            "source": "Lichess",
-            "ratings": {
-                "classical": 1939,
-                "rapid": 1935,
-                "maxRating": 1935,
-                "blitz": 1865,
-                "bullet": 1907
-            },
-            "lastMessageTime": 1561915435711,
-            "lastupdate": 1562166388057
         },
         "201545051791294475": {
             "username": "IpilotAnEVA",
@@ -1081,15 +988,6 @@
             },
             "lastupdate": 1562160631030,
             "lastMessageTime": 1549500192168
-        },
-        "69818515619590144": {
-            "username": "Lensjo",
-            "source": "Lichess",
-            "ratings": {
-                "maxRating": 0
-            },
-            "lastupdate": 1562160407140,
-            "lastMessageTime": 1541360250188
         },
         "140526170062979073": {
             "username": "Henenker",
@@ -1280,16 +1178,6 @@
             },
             "lastupdate": 1562172689755,
             "lastMessageTime": 1552305127650
-        },
-        "140834220825116672": {
-            "username": "riidzinieks",
-            "source": "Lichess",
-            "ratings": {
-                "rapid": 1373,
-                "maxRating": 1373
-            },
-            "lastupdate": 1562178110268,
-            "lastMessageTime": 1545607828338
         },
         "251224342518693891": {
             "username": "birdlawyer22",
@@ -1533,18 +1421,6 @@
             "lastupdate": 1562182914144,
             "lastMessageTime": 1550915018801
         },
-        "355886008887410710": {
-            "username": "RandomJSDev",
-            "source": "Lichess",
-            "ratings": {
-                "classical": 1820,
-                "rapid": 1901,
-                "maxRating": 1901,
-                "blitz": 1890
-            },
-            "lastMessageTime": 1562165754835,
-            "lastupdate": 1562173910110
-        },
         "99676473056591872": {
             "username": "HonorPanda",
             "source": "Lichess",
@@ -1609,16 +1485,6 @@
             "lastupdate": 1562193717967,
             "lastMessageTime": 1552532168055
         },
-        "386649194582245380": {
-            "username": "WestDeutscheRundfunk",
-            "source": "Lichess",
-            "ratings": {
-                "blitz": 2002,
-                "maxRating": 2002
-            },
-            "lastupdate": 1562163687738,
-            "lastMessageTime": 1562163096251
-        },
         "341611207062716418": {
             "username": "scaryninja",
             "source": "Chesscom",
@@ -1644,32 +1510,6 @@
             "lastupdate": 1562163706847,
             "lastMessageTime": 1551831714072
         },
-        "331143952528965648": {
-            "username": "rrhyddhad",
-            "source": "Lichess",
-            "ratings": {
-                "classical": 2172,
-                "rapid": 2242,
-                "maxRating": 2270,
-                "blitz": 2270,
-                "bullet": 2242
-            },
-            "lastMessageTime": 1562174731538,
-            "lastupdate": 1562178093987
-        },
-        "129324214225207296": {
-            "username": "Isachess",
-            "source": "Lichess",
-            "ratings": {
-                "classical": 1850,
-                "rapid": 1874,
-                "maxRating": 1874,
-                "blitz": 1755,
-                "bullet": 1748
-            },
-            "lastupdate": 1562177510412,
-            "lastMessageTime": 1562177354867
-        },
         "553827666634211359": {
             "username": "Edward_Elric",
             "source": "Lichess",
@@ -1683,18 +1523,6 @@
             "lastMessageTime": 1561885146821,
             "lastupdate": 1562165487983
         },
-        "365417874128502786": {
-            "username": "plentifulnoodles",
-            "source": "Lichess",
-            "ratings": {
-                "classical": 1909,
-                "rapid": 1816,
-                "maxRating": 1816,
-                "blitz": 1758
-            },
-            "lastMessageTime": 1562136437049,
-            "lastupdate": 1562165131437
-        },
         "149962132346109952": {
             "username": "truedev",
             "source": "Lichess",
@@ -1704,19 +1532,6 @@
             },
             "lastupdate": 1562187115427,
             "lastMessageTime": 1552186710188
-        },
-        "165619850381623296": {
-            "username": "OldPalHappy",
-            "source": "Lichess",
-            "ratings": {
-                "classical": 1783,
-                "rapid": 1816,
-                "maxRating": 1816,
-                "blitz": 1564,
-                "bullet": 1688
-            },
-            "lastupdate": 1562173589846,
-            "lastMessageTime": 1553344079929
         },
         "253952475428552715": {
             "username": "JasonoftheArgonauts",
@@ -1754,32 +1569,6 @@
             },
             "lastupdate": 1562192692831,
             "lastMessageTime": 1553623682701
-        },
-        "377094761590554624": {
-            "username": "TheRealAndromeda",
-            "source": "Lichess",
-            "ratings": {
-                "classical": 2078,
-                "rapid": 2236,
-                "maxRating": 2236,
-                "blitz": 2235,
-                "bullet": 2094
-            },
-            "lastupdate": 1562183691032,
-            "lastMessageTime": 1555781061530
-        },
-        "563736987870429204": {
-            "username": "Numberman768",
-            "source": "Lichess",
-            "ratings": {
-                "classical": 1703,
-                "rapid": 1667,
-                "maxRating": 1667,
-                "blitz": 1502,
-                "bullet": 1159
-            },
-            "lastupdate": 1562183814250,
-            "lastMessageTime": 1561984840288
         },
         "277507445377466369": {
             "username": "Rajarshi93",
@@ -1828,30 +1617,6 @@
             "lastMessageTime": 1562151534914,
             "lastupdate": 1562169088299
         },
-        "158657887474810880": {
-            "username": "madolche",
-            "source": "Lichess",
-            "ratings": {
-                "classical": 1647,
-                "rapid": 1678,
-                "maxRating": 1678,
-                "blitz": 1654
-            },
-            "lastupdate": 1562169285814,
-            "lastMessageTime": 1556351355527
-        },
-        "213486290379866112": {
-            "username": "assassin_in_white",
-            "source": "Chesscom",
-            "ratings": {
-                "rapid": 2071,
-                "maxRating": 2410,
-                "blitz": 2410,
-                "bullet": 2380
-            },
-            "lastupdate": 1562194321357,
-            "lastMessageTime": 1562176741237
-        },
         "353529165229588483": {
             "username": "Hanno_Houmes",
             "source": "Lichess",
@@ -1889,19 +1654,6 @@
             },
             "lastupdate": 1562186391272,
             "lastMessageTime": 1557573846893
-        },
-        "560880116687962122": {
-            "username": "david252525",
-            "source": "Lichess",
-            "ratings": {
-                "classical": 1997,
-                "rapid": 2100,
-                "maxRating": 2100,
-                "blitz": 2017,
-                "bullet": 2102
-            },
-            "lastMessageTime": 1562180705452,
-            "lastupdate": 1562183135049
         },
         "312073650633310208": {
             "username": "GMisterRogers",
@@ -2037,18 +1789,6 @@
             "lastupdate": 1562185835900,
             "lastMessageTime": 1560899377703
         },
-        "345351208740847628": {
-            "username": "elmulinho",
-            "source": "Lichess",
-            "ratings": {
-                "classical": 1626,
-                "rapid": 1554,
-                "maxRating": 1554,
-                "blitz": 1510
-            },
-            "lastupdate": 1562185614401,
-            "lastMessageTime": 1562183142358
-        },
         "517192245741486080": {
             "username": "sourcherry16",
             "source": "Lichess",
@@ -2082,19 +1822,6 @@
             },
             "lastupdate": 1562186201399,
             "lastMessageTime": 1558874015953
-        },
-        "230098086687408128": {
-            "username": "DaJuukes",
-            "source": "Lichess",
-            "ratings": {
-                "classical": 1846,
-                "rapid": 1600,
-                "maxRating": 1600,
-                "blitz": 1488,
-                "bullet": 1434
-            },
-            "lastupdate": 1562160104531,
-            "lastMessageTime": 1562137737381
         },
         "348176316891267073": {
             "username": "CitrineMancer",
@@ -2140,28 +1867,6 @@
             "lastupdate": 1562171086729,
             "lastMessageTime": 1562170894443
         },
-        "184655313520164864": {
-            "username": "Finneri",
-            "source": "Lichess",
-            "ratings": {
-                "classical": 1938,
-                "blitz": 1757,
-                "maxRating": 1757
-            },
-            "lastupdate": 1562174810186,
-            "lastMessageTime": 1561532347853
-        },
-        "312824560602841089": {
-            "username": "jetlusky",
-            "source": "Lichess",
-            "ratings": {
-                "blitz": 2301,
-                "maxRating": 2301,
-                "bullet": 2337
-            },
-            "lastMessageTime": 1562151578314,
-            "lastupdate": 1562182611724
-        },
         "549467506608439297": {
             "username": "NuclearKnight",
             "source": "Lichess",
@@ -2172,19 +1877,7 @@
                 "blitz": 1648,
                 "bullet": 1813
             },
-            "lastMessageTime": 1562151458358,
-            "lastupdate": 1562188901671
-        },
-        "116005671656226817": {
-            "username": "blunderinlife",
-            "source": "Lichess",
-            "ratings": {
-                "classical": 1413,
-                "rapid": 1351,
-                "maxRating": 1351
-            },
-            "lastupdate": 1562164908188,
-            "lastMessageTime": 1561874699933
+            "lastMessageTime": 1562151458358
         },
         "146595594155196416": {
             "username": "mqp",
@@ -2220,7 +1913,6 @@
                 "blitz": 2401,
                 "bullet": 2352
             },
-            "lastupdate": 1562188001564,
             "lastMessageTime": 1562139193886
         },
         "349653902980808726": {
@@ -2233,18 +1925,7 @@
                 "blitz": 1573,
                 "bullet": 1309
             },
-            "lastupdate": 1562168207160,
             "lastMessageTime": 1562167266371
-        },
-        "442376458942283786": {
-            "username": "burrower",
-            "source": "Lichess",
-            "ratings": {
-                "maxRating": 0,
-                "bullet": 2266
-            },
-            "lastMessageTime": 1562126365856,
-            "lastupdate": 1562162431181
         },
         "263716135801847808": {
             "username": "ChuckPhil",
@@ -2289,20 +1970,7 @@
                 "maxRating": 2217,
                 "bullet": 2157
             },
-            "lastMessageTime": 1562183677944,
-            "lastupdate": 1562190704385
-        },
-        "210017247048105985": {
-            "username": "markhc",
-            "source": "Lichess",
-            "ratings": {
-                "rapid": 1827,
-                "maxRating": 1966,
-                "blitz": 1966,
-                "bullet": 2008
-            },
-            "lastupdate": 1562170889512,
-            "lastMessageTime": 1561829907345
+            "lastMessageTime": 1562183677944
         },
         "282873853519069188": {
             "username": "oddskill",
@@ -2316,16 +1984,6 @@
             "lastupdate": 1562159178175,
             "lastMessageTime": 1561820414977
         },
-        "233278116871667712": {
-            "username": "Lapa87",
-            "source": "Lichess",
-            "ratings": {
-                "maxRating": 0,
-                "classical": 1924
-            },
-            "lastupdate": 1562174132860,
-            "lastMessageTime": 1562167421943
-        },
         "275672528838721538": {
             "username": "KNBvsBeer",
             "source": "Lichess",
@@ -2338,6 +1996,500 @@
             },
             "lastMessageTime": 1562123840891,
             "lastupdate": 1562168188208
+        },
+        "365417874128502786": {
+            "username": "plentifulnoodles",
+            "source": "Lichess",
+            "ratings": {
+                "classical": 1909,
+                "rapid": 1915,
+                "maxRating": 1915,
+                "blitz": 1806
+            },
+            "lastupdate": 1562747736181
+        },
+        "228090700837683200": {
+            "username": "Stenefix",
+            "source": "Lichess",
+            "ratings": {
+                "rapid": 1473,
+                "maxRating": 1473,
+                "blitz": 1323,
+                "bullet": 1278
+            },
+            "lastupdate": 1562863995439
+        },
+        "188975805265608704": {
+            "username": "OliverNEW",
+            "source": "Lichess",
+            "ratings": {
+                "rapid": 2071,
+                "maxRating": 2071,
+                "blitz": 2027,
+                "bullet": 1860
+            }
+        },
+        "563736987870429204": {
+            "username": "Numberman768",
+            "source": "Lichess",
+            "ratings": {
+                "classical": 1693,
+                "rapid": 1708,
+                "maxRating": 1708,
+                "blitz": 1520
+            },
+            "lastupdate": 1562874392272
+        },
+        "279768565018525709": {
+            "username": "Apocalyptias",
+            "source": "Chesscom",
+            "ratings": {
+                "rapid": 1104,
+                "maxRating": 1104,
+                "blitz": 438
+            },
+            "lastupdate": 1562899060824
+        },
+        "599184105183379456": {
+            "username": "Boonie2000",
+            "source": "Lichess",
+            "ratings": {
+                "classical": 1225,
+                "rapid": 1111,
+                "maxRating": 1111,
+                "blitz": 934,
+                "bullet": 996
+            },
+            "lastupdate": 1563121597382
+        },
+        "578632992617005096": {
+            "username": "jsettle1",
+            "source": "Lichess",
+            "ratings": {
+                "classical": 1352,
+                "rapid": 1209,
+                "maxRating": 1209
+            },
+            "lastupdate": 1563320704370
+        },
+        "178074471280672779": {
+            "username": "gonX",
+            "source": "Lichess",
+            "ratings": {
+                "blitz": 923,
+                "maxRating": 923
+            },
+            "lastupdate": 1563467123537
+        },
+        "563732847257583616": {
+            "username": "lethgo",
+            "source": "Lichess",
+            "ratings": {
+                "classical": 1791,
+                "rapid": 1802,
+                "maxRating": 1802,
+                "blitz": 1414
+            },
+            "lastupdate": 1563470372325
+        },
+        "371059063242489858": {
+            "username": "Nathaniel_tang",
+            "source": "Lichess",
+            "ratings": {
+                "rapid": 848,
+                "maxRating": 1678,
+                "blitz": 1678,
+                "bullet": 1713
+            },
+            "lastupdate": 1563485701255
+        },
+        "116005671656226817": {
+            "username": "blunderinlife",
+            "source": "Lichess",
+            "ratings": {
+                "classical": 1413,
+                "rapid": 1412,
+                "maxRating": 1412
+            },
+            "lastupdate": 1563497550251
+        },
+        "386649194582245380": {
+            "username": "Whitedancingrockstar",
+            "source": "Lichess",
+            "ratings": {
+                "classical": 2001,
+                "rapid": 1951,
+                "maxRating": 2001,
+                "blitz": 2001,
+                "bullet": 1951
+            },
+            "lastupdate": 1563542359962
+        },
+        "129324214225207296": {
+            "username": "Isachess",
+            "source": "Lichess",
+            "ratings": {
+                "classical": 1855,
+                "rapid": 1903,
+                "maxRating": 1903,
+                "blitz": 1809,
+                "bullet": 1733
+            },
+            "lastupdate": 1563550196579
+        },
+        "398947542093660160": {
+            "username": "Hoolyduck",
+            "source": "Lichess",
+            "ratings": {
+                "classical": 1512,
+                "rapid": 1716,
+                "maxRating": 1716,
+                "blitz": 1545,
+                "bullet": 1301
+            }
+        },
+        "233278116871667712": {
+            "username": "Lapa87",
+            "source": "Lichess",
+            "ratings": {
+                "classical": 1914,
+                "rapid": 1938,
+                "maxRating": 1938
+            },
+            "lastupdate": 1563785648884
+        },
+        "355886008887410710": {
+            "username": "RandomJSDev",
+            "source": "Lichess",
+            "ratings": {
+                "classical": 1820,
+                "rapid": 1901,
+                "maxRating": 1901,
+                "blitz": 1793
+            },
+            "lastupdate": 1564080880138
+        },
+        "184655313520164864": {
+            "username": "Finneri",
+            "source": "Lichess",
+            "ratings": {
+                "classical": 1936,
+                "blitz": 1803,
+                "maxRating": 1803
+            },
+            "lastupdate": 1564426250406
+        },
+        "395990109507289108": {
+            "username": "PeterPizzaParker",
+            "source": "Chesscom",
+            "ratings": {
+                "blitz": 711,
+                "maxRating": 711
+            },
+            "lastupdate": 1565658956107
+        },
+        "142496872152432651": {
+            "username": "ErinYu",
+            "source": "Lichess",
+            "ratings": {
+                "classical": 2323,
+                "rapid": 2366,
+                "maxRating": 2366,
+                "blitz": 2304
+            },
+            "lastupdate": 1565746912952
+        },
+        "458060380346777600": {
+            "username": "chunkou",
+            "source": "Lichess",
+            "ratings": {
+                "rapid": 1737,
+                "maxRating": 1737,
+                "blitz": 1623,
+                "bullet": 1686
+            },
+            "lastupdate": 1565808790819
+        },
+        "256050055742488577": {
+            "username": "Sup12",
+            "source": "Lichess",
+            "ratings": {
+                "classical": 1562,
+                "rapid": 1953,
+                "maxRating": 1953,
+                "blitz": 1728,
+                "bullet": 1800
+            },
+            "lastupdate": 1565880559717
+        },
+        "149442609507598336": {
+            "username": "jslavik",
+            "source": "Lichess",
+            "ratings": {
+                "classical": 1912,
+                "blitz": 1700,
+                "maxRating": 1700,
+                "bullet": 1615
+            },
+            "lastupdate": 1565932894561
+        },
+        "325718727989526540": {
+            "username": "classicalryadad",
+            "source": "Lichess",
+            "ratings": {
+                "classical": 1939,
+                "rapid": 2106,
+                "maxRating": 2106,
+                "blitz": 1980,
+                "bullet": 2100
+            },
+            "lastupdate": 1565978044482
+        },
+        "326874461045391371": {
+            "username": "willw155",
+            "source": "Lichess",
+            "ratings": {
+                "classical": 1813,
+                "rapid": 1735,
+                "maxRating": 1735,
+                "blitz": 1617
+            },
+            "lastupdate": 1566384886463
+        },
+        "428590103640801290": {
+            "username": "alwaysdizzy",
+            "source": "Lichess",
+            "ratings": {
+                "classical": 1885,
+                "rapid": 2002,
+                "maxRating": 2002,
+                "blitz": 1969,
+                "bullet": 1919
+            },
+            "lastupdate": 1566407533959
+        },
+        "348994533540888586": {
+            "username": "Liquid67",
+            "source": "Lichess",
+            "ratings": {
+                "rapid": 1416,
+                "maxRating": 1416
+            },
+            "lastupdate": 1566527943202
+        },
+        "265389826356936704": {
+            "username": "Zopherus",
+            "source": "Lichess",
+            "ratings": {
+                "maxRating": 0,
+                "classical": 1418
+            },
+            "lastupdate": 1566528118153
+        },
+        "281459080223260675": {
+            "username": "ElectrAnic",
+            "source": "Lichess",
+            "ratings": {
+                "rapid": 1703,
+                "maxRating": 1703,
+                "blitz": 1304
+            },
+            "lastupdate": 1567002765251
+        },
+        "595735571712835584": {
+            "username": "dangerops",
+            "source": "Lichess",
+            "ratings": {
+                "rapid": 2169,
+                "maxRating": 2169,
+                "blitz": 2007,
+                "bullet": 2028
+            },
+            "lastupdate": 1567164774255
+        },
+        "503629532012478475": {
+            "username": "shakkimatti55",
+            "source": "Lichess",
+            "ratings": {
+                "classical": 1723,
+                "rapid": 1900,
+                "maxRating": 1900,
+                "blitz": 1730,
+                "bullet": 1722
+            },
+            "lastupdate": 1567190049496
+        },
+        "213486290379866112": {
+            "username": "assassin_in_white",
+            "source": "Lichess",
+            "ratings": {
+                "classical": 2410,
+                "rapid": 2361,
+                "maxRating": 2479,
+                "blitz": 2479,
+                "bullet": 2397
+            },
+            "lastupdate": 1567196592828
+        },
+        "560880116687962122": {
+            "username": "david252525",
+            "source": "Lichess",
+            "ratings": {
+                "classical": 2038,
+                "rapid": 2090,
+                "maxRating": 2100,
+                "blitz": 2100,
+                "bullet": 2102
+            }
+        },
+        "300787111462699008": {
+            "username": "BraydonP",
+            "source": "Lichess",
+            "ratings": {
+                "classical": 1893,
+                "rapid": 2110,
+                "maxRating": 2110,
+                "blitz": 2002,
+                "bullet": 1904
+            },
+            "lastupdate": 1567256004347
+        },
+        "331143952528965648": {
+            "username": "rrhyddhad",
+            "source": "Lichess",
+            "ratings": {
+                "classical": 2171,
+                "rapid": 2286,
+                "maxRating": 2406,
+                "blitz": 2406,
+                "bullet": 2305
+            },
+            "lastupdate": 1567374400318
+        },
+        "379034415285927936": {
+            "username": "izzie26",
+            "source": "Lichess",
+            "ratings": {
+                "classical": 1724,
+                "rapid": 1575,
+                "maxRating": 1575,
+                "blitz": 1266
+            },
+            "lastupdate": 1567431777902
+        },
+        "612446982853754939": {
+            "username": "justmoves",
+            "source": "Lichess",
+            "ratings": {
+                "rapid": 1913,
+                "maxRating": 2037,
+                "blitz": 2037,
+                "bullet": 2029
+            },
+            "lastupdate": 1567441966944
+        },
+        "312824560602841089": {
+            "username": "jetlusky",
+            "source": "Lichess",
+            "ratings": {
+                "blitz": 2404,
+                "maxRating": 2404,
+                "bullet": 2398
+            },
+            "lastupdate": 1567452599480
+        },
+        "155688951066132480": {
+            "username": "isavulpes",
+            "source": "Lichess",
+            "ratings": {
+                "classical": 2145,
+                "rapid": 2012,
+                "maxRating": 2012,
+                "blitz": 2005,
+                "bullet": 1809
+            },
+            "lastupdate": 1567506234899
+        },
+        "200299493835407360": {
+            "username": "Eika",
+            "source": "Lichess",
+            "ratings": {
+                "maxRating": 0
+            },
+            "lastupdate": 1567511217635
+        },
+        "311966837241806848": {
+            "username": "parizh",
+            "source": "Lichess",
+            "ratings": {
+                "rapid": 1702,
+                "maxRating": 1702,
+                "blitz": 1337
+            },
+            "lastupdate": 1567522521799
+        },
+        "345351208740847628": {
+            "username": "elmulinho",
+            "source": "Lichess",
+            "ratings": {
+                "classical": 1767,
+                "rapid": 1703,
+                "maxRating": 1703,
+                "blitz": 1593
+            },
+            "lastupdate": 1567708886173
+        },
+        "459455763358679061": {
+            "username": "FlamoToolz",
+            "source": "Lichess",
+            "ratings": {
+                "rapid": 1977,
+                "maxRating": 2003,
+                "blitz": 2003,
+                "bullet": 1963
+            }
+        },
+        "368636028443164673": {
+            "username": "bruxa4",
+            "source": "Lichess",
+            "ratings": {
+                "rapid": 937,
+                "maxRating": 937,
+                "blitz": 690
+            },
+            "lastupdate": 1567865355424
+        },
+        "532443797397700608": {
+            "username": "smashtimefools",
+            "source": "Lichess",
+            "ratings": {
+                "blitz": 2231,
+                "maxRating": 2231,
+                "bullet": 2390
+            },
+            "lastupdate": 1567865373774
+        },
+        "522903416239030272": {
+            "username": "neppils",
+            "source": "Lichess",
+            "ratings": {
+                "classical": 1527,
+                "rapid": 1195,
+                "maxRating": 1267,
+                "blitz": 1267,
+                "bullet": 1434
+            },
+            "lastupdate": 1568034629940
+        },
+        "417974939610644481": {
+            "username": "SidScarlet",
+            "source": "Lichess",
+            "ratings": {
+                "rapid": 1557,
+                "maxRating": 1557,
+                "blitz": 1502
+            },
+            "lastupdate": 1568050170938
         }
     }
 }
